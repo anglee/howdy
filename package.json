@@ -2,7 +2,16 @@
   "name": "howdy",
   "version": "1.0.0",
   "description": "A minimal Node.js app",
+  "license": "ISC",
+  "author": "Ang Lee",
+  "repository": "anglee/howdy",
   "main": "howdy.js",
+  "scripts": {
+    "dev": "babel-node howdy.js",
+    "test": "mocha *.spec.js --compilers js:babel-register",
+    "build": "babel howdy.js -d dist",
+    "start": "node dist/howdy.js"
+  },
   "dependencies": {
     "lodash": "^4.6.1"
   },
@@ -13,13 +22,5 @@
     "babel-register": "^6.7.2",
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
-  },
-  "scripts": {
-    "build": "babel howdy.js -d dist",
-    "dev": "babel-node howdy.js",
-    "start": "node dist/howdy.js",
-    "test": "mocha *.spec.js --compilers js:babel-register"
-  },
-  "author": "Ang Lee",
-  "license": "ISC"
+  }
 }
