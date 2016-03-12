@@ -1,7 +1,7 @@
 {
-  "name": "howdy-world",
+  "name": "howdy",
   "version": "1.0.0",
-  "description": "Howdy!",
+  "description": "A minimal Node.js app",
   "main": "howdy.js",
   "dependencies": {
     "lodash": "^4.6.1"
