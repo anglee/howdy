@@ -22,6 +22,11 @@ npm test
 
 add tests in `howdy.spec.js`
 
+Bonus:
+
+If using Webstorm, you might also want to consider to 'Run > Edit Configurations...] and add a mocha configuration with --compilers js:babel-register for *.spec.js files.
+
+
 ### Build
 ```
 npm run build
