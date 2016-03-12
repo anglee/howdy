@@ -1,6 +1,7 @@
 This is a minimal Node.js app for quick JS experiments.
 
 ## scripts
+### Install
 ```
 npm install
 ```
