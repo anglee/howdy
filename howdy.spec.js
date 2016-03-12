@@ -1,8 +1,8 @@
-import chai from 'chai';
-const expect = chai.expect;
+import {expect} from 'chai';
+import howdy from './howdy';
 
-describe('Howdy', () => {
-  it('should be nice', () => {
-    expect(true).to.equal(true);
+describe('howdy', () => {
+  it('should say howdy', () => {
+    expect(howdy).to.equal("Howdy, world!");
   });
 });
