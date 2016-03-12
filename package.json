@@ -16,7 +16,7 @@
   },
   "scripts": {
     "test": "mocha *.spec.js --compilers js:babel-register",
-    "start": "node howdy.js"
+    "start": "babel-node howdy.js"
   },
   "author": "Ang Lee",
   "license": "ISC"
